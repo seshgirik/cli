@@ -4,6 +4,7 @@ on:
   pull_request:
     branches: [master]
 
+
 jobs:
   check_for_changed_iac_files:
     name: Check for changed IaC files
